@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="start-screen">
+      <h1 class="custom-title">ゲームタイトル</h1>
+      <button id="start-button">スタート</button>
+      
+      <button id="login-button">ログイン</button>
+      <button id="logout-button">ログアウト</button>
+      <button id="create-account-button">アカウント作成</button>
+    </div>
+    <script>
+        document.getElementById("start-button").addEventListener("click", function() {
+          // スタートボタンがクリックされたときに mainmenu.html に移動
+          window.location.href = "mainmenu.html";
+        });
+      </script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+body {
+    background-image: url('images/FpfwdoXaUAAria2.jpg'); /* スタート画面の画像ここ */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+/* ゲームタイトルの文字のとこ */
+.custom-title {
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    font-size: 100px;
+    color: #f7f4f4;
+    text-align: center; /* テキストを中央に配置 */
+    text-shadow: 2px 2px 30px #f03c90;
+    font-weight: bold;
+  }
+  
+  /* スタートボタンのデザイン */
+#start-button {
+  background-color: #007bff; /* ボタンの背景色 */
+  /* 背景色透過率 */
+background-color: rgba(250, 139, 211, 0.496);
+
+  color: #fff; /* ボタンのテキスト色 */
+  padding: 10px 20px; /* パディング */
+  border: none; /* ボーダーなし */
+  border-radius: 5px; /* 角丸 */
+  font-size: 18px; /* フォントサイズ */
+  margin-right: 10px; /* 右マージン */
+}
+/* スタートボタンを中央に配置 */
+#start-button {
+    text-align: center;
+  }
+  
+
+/* ログインボタンのスタイル */
+#login-button {
+    background-color: #ff0000; /* ボタンの背景色 */
+    background-color: rgba(163, 139, 250, 0.496);
+    color: #fff; /* ボタンのテキスト色 */
+    padding: 10px 20px; /* パディング */
+    border: none; /* ボーダーなし */
+    border-radius: 5px; /* 角丸 */
+    font-size: 18px; /* フォントサイズ */
+  }
+
+/* ログアウトボタンのスタイル */
+#logout-button {
+  background-color: #ff0000; /* ボタンの背景色 */
+  background-color: rgba(190, 41, 41, 0.496);
+  color: #fff; /* ボタンのテキスト色 */
+  padding: 10px 20px; /* パディング */
+  border: none; /* ボーダーなし */
+  border-radius: 5px; /* 角丸 */
+  font-size: 18px; /* フォントサイズ */
+}
+
+/* アカウント作成ボタンのスタイリング */
+#create-account-button {
+    background-color: #FF5722; /* 背景色を設定 */
+    background-color: rgba(245, 216, 0, 0.496);
+    color: #fff; /* テキスト色を設定 */
+    padding: 10px 20px; /* パディングを設定 */
+    border: none; /* ボーダーを削除 */
+    border-radius: 5px; /* ボタンの角を丸くする */
+  }
+
+/* ログインボタンを左下に配置 */
+#logout-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  /* ログアウトボタンを左下に配置 */
+  #login-button {
+    position: absolute;
+    bottom: 60px; /* 30px 上に配置 */
+    left: 0;
+  }
+  
+  
+  
+  /* アカウント作成ボタンを右下に配置 */
+  #create-account-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+
+/* スタート画面全体のスタイル */
+#start-screen {
+  text-align: center; /* 中央寄せ */
+  padding: 100px; /* パディング */
+}
+
+  
+  
+  
